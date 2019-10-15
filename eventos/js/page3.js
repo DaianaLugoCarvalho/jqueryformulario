@@ -4,9 +4,14 @@ $(function(){
 
     $('button').click(function(){
 
-        $('.img1').fadeToggle(3000);
-        $('.img2').fadeToggle(4000);
-        $('.img3').fadeToggle(5000);
+        // $('.img1').fadeToggle(3000);
+        // $('.img2').fadeToggle(4000);
+        // $('.img3').fadeToggle(5000);
+
+
+        $('.card:eq(0)').toggle(3000);
+        $('.card:eq(1)').toggle(4000);
+        $('.card:eq(2)').toggle(5000);
     })
 })
 

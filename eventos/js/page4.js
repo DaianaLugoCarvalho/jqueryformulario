@@ -4,11 +4,23 @@ $(function(){
 
     $('button').click(function(){
         $('.card1').slideDown(3000);
-        $('.card2').slideDown(9000);
-        $('.card3').slideDown(15000);
+        $('.card2').slideDown(6000);
+        $('.card3').slideDown(9000);
+    })
+    
+    $('button').click(function(){
+        $('.card1').slideUp(3000);
+        $('.card2').slideUp(6000);
+        $('.card3').slideUp(9000);
     })
 
+
+
 })
+
+
+
+
 
 
 
