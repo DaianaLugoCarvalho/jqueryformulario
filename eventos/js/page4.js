@@ -1,4 +1,4 @@
-// **4.** No arquivo page4.html, no clique do botão faça com que cada card apareça utilizando efeitos de slide. Um diferente efeito para cada card.
+// **4.** No arquivo page4.html, no clique do botão faça com que cada card apareça utilizando efeitos de slide. Um diferente efeito para cada card. 
 
 $(function(){
 
@@ -13,6 +13,9 @@ $(function(){
         $('.card2').slideUp(6000);
         $('.card3').slideUp(9000);
     })
+
+
+
 
 
 
