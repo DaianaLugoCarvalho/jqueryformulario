@@ -7,11 +7,20 @@ $(function(){
     // });  
 
 
-    $(document).ready(function(){
-        $("img").attr("alt");
+    // $(document).ready(function(){
+    //     $("img").attr("alt");
+    // });
+
+    
+    $(document).ready(function() {
+        let dado = $('img').find().attr('alt');
+
+        console.log(dado);
     });
     
 })
+
+
 
 
 
