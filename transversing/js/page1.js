@@ -12,11 +12,28 @@ $(function(){
     // });
 
     
-    $(document).ready(function() {
-        let dado = $('img').find().attr('alt');
+    // $(document).ready(function() {
+    //     let dado = $('img').find().attr('alt');
 
-        console.log(dado);
-    });
+    //     console.log(dado);
+    // });
+
+    // $()
+    // $()
+    // $()
+    // $()
+
+    // $('img').filter('[alt]')
+
+    $('img').filter('[alt='Itsuka Kendo']')
+
+     // Outra forma ///
+    // $('img[alt]')
+
+
+
+
+
     
 })
 
